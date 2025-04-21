@@ -11,5 +11,6 @@
     "noUncheckedSideEffectImports": true,
     "types": ["vitest"]
   },
-  "include": ["src/**/*.ts", "src/**/*.tsx", "tests/App.spec.ts", ]
+  "include": ["src/**/*.ts", "src/**/*.tsx",  ],
+  "exclude": ["tests", "**/*.spec.ts"]
 }
